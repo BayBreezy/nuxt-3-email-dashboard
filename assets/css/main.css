@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Transition to show hide labels in a slide down fashion */
+.labels-enter-active,
+.labels-leave-active {
+  transition: all 0.2s ease;
+}
+
+.labels-enter-from,
+.labels-leave-to {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+/* Tooltip styles */
+.v-popper__inner {
+  @apply text-xs;
+}
