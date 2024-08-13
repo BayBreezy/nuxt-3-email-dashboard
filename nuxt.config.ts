@@ -6,6 +6,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+
   typescript: { shim: false },
   modules: ["@davestewart/nuxt-scrollbar", "nuxt-icon", "@nuxtjs/device"],
   css: ["~/assets/css/main.css"],
@@ -19,4 +20,6 @@ export default defineNuxtConfig({
       ],
     },
   },
+
+  compatibilityDate: "2024-08-12",
 });
