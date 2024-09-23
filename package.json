@@ -17,7 +17,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxtjs/device": "^3.2.2",
+    "@nuxtjs/device": "^3.2.4",
     "@types/node": "^22.5.5",
     "autoprefixer": "^10.4.20",
     "nuxt": "^3.13.2",
