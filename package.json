@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@nuxtjs/device": "^3.2.4",
-    "@types/node": "^22.7.4",
+    "@types/node": "^22.7.5",
     "autoprefixer": "^10.4.20",
     "nuxt": "^3.13.2",
     "nuxt-icon": "^0.6.10",
