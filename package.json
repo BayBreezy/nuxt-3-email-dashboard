@@ -10,6 +10,7 @@
   "description": "Email Dashboard created with Nuxt 3 + TailwindCSS",
   "version": "1.0.0",
   "scripts": {
+    "afterClone": "rm -rf .nuxt dist node_modules package-lock.json && npm install",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -18,11 +19,11 @@
   },
   "devDependencies": {
     "@nuxtjs/device": "^3.2.4",
-    "@types/node": "^22.7.7",
+    "@types/node": "^22.8.1",
     "autoprefixer": "^10.4.20",
     "nuxt": "^3.13.2",
     "nuxt-icon": "^0.6.10",
-    "postcss": "^8.4.45",
+    "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14"
   },
   "dependencies": {
