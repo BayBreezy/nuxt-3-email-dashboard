@@ -23,12 +23,14 @@
     "autoprefixer": "^10.4.20",
     "nuxt": "^3.14.159",
     "nuxt-icon": "^0.6.10",
-    "postcss": "^8.4.48",
+    "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15"
   },
   "dependencies": {
     "@davestewart/nuxt-scrollbar": "^1.0.0",
     "file-extension-icon-js": "^1.1.6",
-    "floating-vue": "^5.2.2"
+    "floating-vue": "^5.2.2",
+    "vue": "latest",
+    "vue-router": "latest"
   }
 }
