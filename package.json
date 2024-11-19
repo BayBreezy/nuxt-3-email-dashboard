@@ -24,7 +24,7 @@
     "nuxt": "^3.14.159",
     "nuxt-icon": "^0.6.10",
     "postcss": "^8.4.48",
-    "tailwindcss": "^3.4.14"
+    "tailwindcss": "^3.4.15"
   },
   "dependencies": {
     "@davestewart/nuxt-scrollbar": "^1.0.0",
